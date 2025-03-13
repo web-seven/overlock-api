@@ -9,7 +9,7 @@ import "google/api/annotations.proto";
 import "overlock/storage/params.proto";
 import "overlock/storage/registry.proto";
 
-option go_package = "overlock/x/storage/types";
+option go_package = "github.com/web-seven/overlock-api/go/overlock/x/storage/types";
 
 // Query defines the gRPC querier service.
 service Query {
